@@ -5,10 +5,12 @@ Lines = file1.readlines()
 count = 1
 for line in Lines:
     if count == 1:
-      myfile = open(fil, 'a')
+      dator = line
     if count == 2:
-      linenum = 
-    if count
-      myfile.writelines('Mage')[1]
+      linenum = line
+    if count == 3:
+      myfile = open(dator, 'a')
+      myfile.writelines('Mage')[linenum]
       myfile.close()
+      count = 1
     count += 1
