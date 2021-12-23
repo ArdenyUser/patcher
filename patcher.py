@@ -10,7 +10,7 @@ for line in Lines:
       linenum = line
     if count == 3:
       myfile = open(dator, 'a')
-      myfile.writelines('Mage')[linenum]
+      myfile.writelines(line)[linenum]
       myfile.close()
       count = 1
     count += 1
